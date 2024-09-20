@@ -8,4 +8,4 @@ from ..codingbat_com_prob_p173401 import sleep_in
     (True, True, True)
     ])
 def test_sleep_in(weekday, vacation, result):
-    assert sleep_in(False, False) is True
+    assert sleep_in(weekday, vacation,) is result
